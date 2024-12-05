@@ -63,9 +63,23 @@ https://prettier.io/
 npm i -D prettier
 ```
 
-# Notes
+## VScode 拡張機能
+
+- Prettier - Code formatter
+- ESLint
+
+## Husky
+
+https://typicode.github.io/husky/get-started.html
 
 ```shell
+npm install husky lint-staged --save-dev
+```
+
+# Notes
+
+````shell
 # eslint-config-airbnbの最新バージョンを確認する
 npm info eslint-config-airbnb
 s```
+````

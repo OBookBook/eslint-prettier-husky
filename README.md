@@ -52,6 +52,9 @@ npm install -D eslint@^8.2.0
 # 再実行
 npm i -D eslint-config-airbnb
 npm i -D eslint-config-airbnb-base
+
+# prettier
+npm i -D prettier
 ```
 
 
@@ -60,4 +63,4 @@ npm i -D eslint-config-airbnb-base
 ```shell
 # eslint-config-airbnbの最新バージョンを確認する
 npm info eslint-config-airbnb
-```
+s```

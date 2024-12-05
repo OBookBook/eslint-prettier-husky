@@ -52,11 +52,16 @@ npm install -D eslint@^8.2.0
 # 再実行
 npm i -D eslint-config-airbnb
 npm i -D eslint-config-airbnb-base
+```
 
+## Prettier
+
+https://prettier.io/
+
+```shell
 # prettier
 npm i -D prettier
 ```
-
 
 # Notes
 

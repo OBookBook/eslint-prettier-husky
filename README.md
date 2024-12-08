@@ -68,6 +68,18 @@ npm i -D prettier
 - Prettier - Code formatter
 - ESLint
 
+### VSCode settings.json
+
+F1 > settings UI > 設定(JSONを開く)
+
+```json
+"editor.formatOnSave": true,
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.codeActionsOnSave": {
+  "source.fixAll": true
+}
+```
+
 ## Husky
 
 https://typicode.github.io/husky/get-started.html
@@ -78,8 +90,7 @@ npm install husky lint-staged --save-dev
 
 # Notes
 
-````shell
+```shell
 # eslint-config-airbnbの最新バージョンを確認する
-npm info eslint-config-airbnb
-s```
-````
+npm info eslint-config-airbnbs
+```
